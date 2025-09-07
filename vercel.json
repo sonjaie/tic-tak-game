@@ -1,5 +1,8 @@
 {
-  "buildCommand": "cd tic-tac-toe && npm run build",
-  "installCommand": "cd tic-tac-toe && npm install",
-  "outputDirectory": "tic-tac-toe/.next"
+  "version": 2,
+  "name": "tic-tac-toe-game",
+  "buildCommand": "cd tic-tac-toe && npm install && npm run build",
+  "outputDirectory": "tic-tac-toe/.next",
+  "installCommand": "echo 'Skipping root install'",
+  "framework": "nextjs"
 }
